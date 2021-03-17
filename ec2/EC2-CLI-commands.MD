@@ -3,8 +3,9 @@ EC2 CLI
 More Reference:http://docs.aws.amazon.com/cli/latest/reference/ec2/index.html#cli-aws-ec2
 
 **Create AMI from instance:**
-
+```console
 aws ec2 create-image --instance-id i-1234567890abcdef0 --name "My server" --description "An AMI for my server"
+```
 
 **List Instances:**
 
